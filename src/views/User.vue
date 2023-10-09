@@ -21,7 +21,7 @@
     <el-table-column prop="username" label="用户名" width="140"></el-table-column>
     <el-table-column prop="password" label="密码" width="120"></el-table-column>
     <el-table-column prop="age" label="年龄" width="120"></el-table-column>
-    <el-table-column prop="sex" label="性别"></el-table-column>
+    <el-table-column prop="sex" label="性"></el-table-column>
     <el-table-column label="操作"  width="200" align="center">
       <template slot-scope="scope">
         <el-button type="success" @click="handleEdit(scope.row)">编辑 <i class="el-icon-edit"></i></el-button>
